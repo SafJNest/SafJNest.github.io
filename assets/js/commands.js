@@ -1,5 +1,5 @@
 window.onload = function() {
-    console.log("ready to load the focking commands insane beby 1v9");
+    console.log("loading commands");
     loadAll();
 };
 
