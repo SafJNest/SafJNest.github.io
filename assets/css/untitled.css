@@ -1,5 +1,7 @@
 :root {
   --discord: rgb(28, 27, 32);
+  --beebot: #ffc823;
+  --washedBeebot: #ffe391;
 }
 
 .bg-primary {
@@ -36,17 +38,17 @@
 
 @media (min-width: 992px) {
   #mainNav {
-    background-color: #ffc823 !important;
+    background-color: var(--beebot) !important;
     color: var(--discord) !important;
   }
 }
 
-.portfolio {
-  background-color: #ffe391 !important;
+.info {
+  background-color: var(--washedBeebot)!important;
 }
 
 .info-bot {
-  font-size: 1.7em;
+  font-size: 1.117em;
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -58,5 +60,34 @@
 
 .text-secondary {
   color: var(--discord) !important;
+}
+
+.bg-secondary {
+  background-color: var(--beebot) !important;
+}
+
+.table-div {
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 1.117%;
+}
+
+tr, th, td {
+  border: none !important;
+}
+
+table {
+  border: 5px solid var(--beebot) !important;
+}
+
+.top-table {
+  background-color: var(--beebot) !important;
+}
+
+.table {
+  text-align: center;
+  background-color: white !important;
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
