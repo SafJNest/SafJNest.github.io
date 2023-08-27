@@ -29,7 +29,7 @@
                         console.log(tokenType)
                         $.ajax({
                             type: 'POST',
-                            url: 'session.php',
+                            url: 'https://safjnest.github.io/session.php',
                             data: {'id': id, 'tokenType': tokenType, 'accessToken': accessToken},
                             success: function(content) {
                                 console.log(content)
